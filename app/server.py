@@ -11,7 +11,7 @@ from fastai.vision import *
 export_file_url = 'https://drive.google.com/uc?export=download&id=ttps://drive.google.com/open?id=1DeXTyDIsqXaKM4UQCJDJCwd-udnjpZy'
 export_file_name = 'export.pkl'
 
-classes = ['Golf Stick','Hockey Stick']
+classes = ['golf stick','hockey stick']
 path = Path(__file__).parent
 
 app = Starlette()
